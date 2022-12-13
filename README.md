@@ -31,4 +31,5 @@ Working with the master(main) branch might not be enough when working with few d
 <li>move to dev using 'git checkout dev'</li>
 <li>make code change on the current branch (dev) and use 'git add -A' , 'git commit -m ...'</li>
 <li>push to the remote dev branch using 'git push origin dev'</li>
+<li>after all changes are done in dev and you want to merge to main : 'git checkout main' , 'git merge dev'</li>
 </ol>
