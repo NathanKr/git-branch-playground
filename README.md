@@ -24,3 +24,11 @@ Working with the master(main) branch might not be enough when working with few d
     <td>start working on branch_name</td>
   </tr>
 </table>
+
+<h2>Common flow</h2>
+<ol>
+<li>create once a dev branch from main using e.g 'git branch -b dev'</li>
+<li>move to dev using 'git checkout dev'</li>
+<li>make code change on the current branch (dev) and use 'git add -A' , 'git commit -m ...'</li>
+<li>push to the remote dev branch using 'git push origin dev'</li>
+</ol>
