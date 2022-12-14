@@ -16,12 +16,16 @@ Working with the master(main) branch might not be enough when working with few d
     <td>show local branches. The green is the current one we are working at</td>
   </tr>
   <tr>
-    <td>git branch -b branch_name></td>
+    <td>git branch -b branch_name</td>
     <td>create a new branch from the current branch</td>
   </tr>
   <tr>
-    <td>git checkout branch_name></td>
+    <td>git checkout branch_name</td>
     <td>start working on branch_name</td>
+  </tr>
+  <tr>
+    <td>git branch -d branch_name</td>
+    <td>delete branch locally. You can not be on the branch to delete it. If it is not merged you will not be able to delete. so either mergae or perform git branch -D dev</td>
   </tr>
 </table>
 
@@ -32,4 +36,5 @@ Working with the master(main) branch might not be enough when working with few d
 <li>make code change on the current branch (dev) and use 'git add -A' , 'git commit -m ...'</li>
 <li>push to the remote dev branch using 'git push origin dev'</li>
 <li>after all changes are done in dev and you want to merge to main : 'git checkout main' , 'git merge dev'</li>
+<li>after merge to main it is common to delete dev </li>
 </ol>
