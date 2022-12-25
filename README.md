@@ -13,7 +13,7 @@ Working with the master(main) branch might not be enough when working with few d
   </tr>
   <tr>
     <td>git branch -a</td>
-    <td>show local branches. The green is the current one we are working at</td>
+    <td>show local and remote branches. The green is the current one we are working at</td>
   </tr>
   <tr>
     <td>git branch -b branch_name</td>
@@ -26,6 +26,10 @@ Working with the master(main) branch might not be enough when working with few d
   <tr>
     <td>git branch -d branch_name</td>
     <td>delete branch locally. You can not be on the branch to delete it. If it is not merged you will not be able to delete. so either mergae or perform git branch -D dev</td>
+  </tr>
+  <tr>
+    <td>git branch -r</td>
+    <td></td>
   </tr>
 </table>
 
