@@ -29,7 +29,7 @@ Working with the master(main) branch might not be enough when working with few d
   </tr>
   <tr>
     <td>git branch -r</td>
-    <td></td>
+    <td>show remote branch</td>
   </tr>
 </table>
 
