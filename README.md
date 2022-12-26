@@ -16,7 +16,7 @@ Working with the master(main) branch might not be enough when working with few d
     <td>show local and remote branches. The green is the current one we are working at</td>
   </tr>
   <tr>
-    <td>git branch -b branch_name</td>
+    <td>git checkout -b branch_name</td>
     <td>create a new branch from the current branch</td>
   </tr>
   <tr>
